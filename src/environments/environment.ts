@@ -2,8 +2,10 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+//documentation URL https://documenter.getpostman.com/view/10808728/SzS8rjbc#9739c95f-ef1d-489b-97a9-0a6dfe2f74d8
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'https://api.covid19api.com',
 };
 
 /*
